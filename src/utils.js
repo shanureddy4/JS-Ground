@@ -6,4 +6,6 @@ function feetToCm(n){
 return n*6;
 }
    
-   module.exports = {meterToCentimeter, feetToCm}
+   export {meterToCentimeter}
+
+   export default feetToCm
