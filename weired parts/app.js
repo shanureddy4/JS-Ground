@@ -1,8 +1,8 @@
 b();
-console.log(a)
+console.log(a);
 var a = "Hi shanu"
 
-var b = function(){
+function b(){
     console.log("inside b");
 
 }
