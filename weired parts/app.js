@@ -6,3 +6,7 @@ function b(){
     console.log("inside b");
 
 }
+
+//not defined vs undefined. 
+var c;
+console.log(c);
