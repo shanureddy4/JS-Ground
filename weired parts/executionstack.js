@@ -8,6 +8,21 @@ function b(){
 a();
 
 }
-b();
+//b();
 var e = "Hello"
-console.log(e) // Hello
+//console.log(e) // Hello
+
+
+// variable environment
+function testa(){
+    var myVar;
+    console.log(myVar);
+}
+function testb(){
+var myVar = 10;
+console.log(myVar);
+testa();
+}
+var myVar = 20;
+console.log(myVar);
+testb();
